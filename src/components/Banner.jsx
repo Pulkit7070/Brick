@@ -41,14 +41,13 @@ const Banner = () => {
           >
             A decentralized platform for buying and selling real estate properties using blockchain technology.
           </p>
-          <Link to="/app">
-            <button
-              className='relative mb-10 bg-gradient-to-r from-purple-500 to-indigo-500 border-none px-8 py-3 rounded-full text-white text-lg md:text-xl font-semibold shadow-lg transform transition duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500'
-              style={{ fontFamily: "'Poppins', sans-serif" }}
-            >
-              <span className='relative z-10'>Launch App</span>
-            </button>
-          </Link>
+          <a
+            href="https://brickbyte1.vercel.app/"
+            className='inline-block mb-10 bg-gradient-to-r from-purple-500 to-indigo-500 border-none px-8 py-3 rounded-full text-white text-lg md:text-xl font-semibold shadow-lg transform transition duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500'
+            style={{ fontFamily: "'Poppins', sans-serif" }}
+          >
+            <span className='relative z-10'>Launch App</span>
+          </a>
         </div>
       </section>
 
@@ -56,7 +55,7 @@ const Banner = () => {
       <section className='bg-black py-12 px-4'>
         <div className='relative w-full max-w-5xl mx-auto'>
           <div className='absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-50 blur-lg animate-border'></div>
-          
+
           {/* Main Content */}
           <div
             className='relative backdrop-blur-xl bg-gradient-to-br from-[#000bid] to-[#0a1226] rounded-3xl p-8 shadow-2xl'
@@ -79,7 +78,7 @@ const Banner = () => {
                 ></div>
               ))}
             </div>
-            
+
             {/* Content Grid */}
             <div className='relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8'>
               {["$Market Size", "$ Annual Transactions", "$Liquid Assets"].map((title, index) => (
@@ -88,7 +87,7 @@ const Banner = () => {
                   className='group relative p-6 rounded-xl transition-all duration-300 hover:bg-[#ffffff08] hover:-translate-y-2'
                 >
                   <div className='absolute bottom-0 left-1/2 w-0 h-[2px] bg-gradient-to-r from-cyan-400 to-pink-500 group-hover:w-full transition-all duration-500'></div>
-                  
+
                   {/* Content */}
                   <div className='text-center space-y-4'>
                     <h3 className='text-sm uppercase tracking-widest text-cyan-300 font-bold opacity-90'>
@@ -96,18 +95,18 @@ const Banner = () => {
                     </h3>
                     <p className='text-3xl font-extrabold bg-gradient-to-r from-purple-200 to-cyan-300 bg-clip-text text-transparent'>
                       {index === 0 ? "$326T+" :
-                      index === 1 ? "$50T/Year" :
-                      "$10T+ Liquid"}
+                        index === 1 ? "$50T/Year" :
+                          "$10T+ Liquid"}
                     </p>
                   </div>
-                  
+
                   {/* Content Accents */}
                   <div className='absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-cyan-400 opacity-50'></div>
                   <div className='absolute bottom-2 left-2 w-3 h-3 border-t-2 border-r-2 border-pink-400 opacity-50'></div>
                 </div>
               ))}
             </div>
-            
+
             {/* Center Divider */}
             <div className='absolute inset-x-0 top-1/2 md:block lg:hidden'>
               <div className='h-[1px] bg-gradient-to-r from-transparent via-[#ffffff15] to-transparent w-full'></div>
