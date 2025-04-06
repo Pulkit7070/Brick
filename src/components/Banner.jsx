@@ -42,7 +42,7 @@ const Banner = () => {
             A decentralized platform for buying and selling real estate properties using blockchain technology.
           </p>
           <a
-            href="https://brickbyte1.vercel.app/"
+            href="https://brickbyte.vercel.app/"
             className='inline-block mb-10 bg-gradient-to-r from-purple-500 to-indigo-500 border-none px-8 py-3 rounded-full text-white text-lg md:text-xl font-semibold shadow-lg transform transition duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500'
             style={{ fontFamily: "'Poppins', sans-serif" }}
           >
